@@ -14,9 +14,9 @@ jobs:
     uses: swissgrc/.github/.github/workflows/publish-image.yml@main
     with:
       image-name: swissgrc/azure-pipelines-azurecli
-      default-latest-tag: true
+      default-latest-tag: false
       additional-latest-tag-name: latest-net8
-      default-unstable-tag: true
+      default-unstable-tag: false
       additional-unstable-tag-name: unstable-net8
       release-tag-suffix: net8
     secrets:
