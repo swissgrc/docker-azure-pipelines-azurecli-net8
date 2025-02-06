@@ -39,6 +39,6 @@ The following example shows the container used for a deployment step with a Azur
 |---------------|---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | latest-net8   | Latest stable release (from `main` branch)              | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/swissgrc/azure-pipelines-azurecli/latest?style=flat-square)        |
 | unstable-net8 | Latest unstable release (from `develop` branch)         | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/swissgrc/azure-pipelines-azurecli/unstable?style=flat-square)      |
-| x.y.z-net8    | Image for a specific version ofAzure CLI                |                                                                                                                                        |
+| x.y.z-net8    | Image for a specific version of Azure CLI               |                                                                                                                                        |
 
 [Azure Pipelines container jobs]: https://docs.microsoft.com/en-us/azure/devops/pipelines/process/container-phases
