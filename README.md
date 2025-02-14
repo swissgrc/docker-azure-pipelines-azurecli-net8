@@ -30,10 +30,11 @@ The following example shows the container used for a deployment step with a Azur
                     az version
 ```
 
-### Included Software
+## Included Software
+- [swissgrc/azure-pipelines-dotnet:8](https://github.com/swissgrc/docker-azure-pipelines-dotnet-8) as base image
 - Azure CLI
 
-### Tags
+## Tags
 
 | Tag           | Description                                             | Size                                                                                                                                   |
 |---------------|---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
